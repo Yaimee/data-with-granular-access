@@ -20,8 +20,8 @@ products:
  ketcher | brugt               |   100 |  6 | user1  
 ```
 secrets:
-
-``` secret_title |     secret_description     | id |             limited_visibility             | role_privilege  
+```
+ secret_title |     secret_description     | id |             limited_visibility             | role_privilege  
 --------------+----------------------------+----+--------------------------------------------+----------------  
  hemmelighed  | meget hemmelig hemmelighed |  1 | kun admin kan se indholdet af denne celle  |  
  hemmelighed2 | hemmeligste hemmelighed    |  3 | denne secret er synlig for user2           | user2  
