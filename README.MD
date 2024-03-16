@@ -4,7 +4,7 @@ PostgreSQL
 
 This PostgreSQL database was setup with user privileges and Row Level Security
 
-before proceeding with the database connection, let's have a look at the tables, and the priviliges of the two existing user from the database.
+before proceeding with the database connection, let's have a look at the tables, and the priviliges of the two existing users in the database.
 there are three tables in the psql container.
 
 TABLES
@@ -80,7 +80,7 @@ for user2
   3.3. click button 'Environment Variables'
   3.4. mark 'path' under 'user variables for <your username>'
   now you should be able ot use psql in any local cli!
-4. connect to database with user 1: psql -h 51.120.12.130 -p 5432 -d testdb -U user1
+4. connect to database with user1: psql -h 51.120.12.130 -p 5432 -d testdb -U user1
 5. insert password: 'parsewoard123'
 6. play around with sql commands
 7. now try with user2
