@@ -11,7 +11,7 @@ TABLES
 
 products:
 
-  title  |     description     | price | id | created_by\n
+  title  |     description     | price | id | created_by  
 ---------+---------------------+-------+----+------------
  besked1 | Her er en besked    |       |  1 | root
  bukser  | bukser beeskrivelse |       |  2 | root
