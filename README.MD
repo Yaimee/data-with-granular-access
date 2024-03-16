@@ -21,11 +21,11 @@ products:
 
 secrets:
 
- secret_title |     secret_description     | id |             limited_visibility             | role_privilege
---------------+----------------------------+----+--------------------------------------------+----------------
- hemmelighed  | meget hemmelig hemmelighed |  1 | kun admin kan se indholdet af denne celle  |
- hemmelighed2 | hemmeligste hemmelighed    |  3 | denne secret er synlig for user2           | user2
- hemmelighed1 | hemmeligere hemmelighed    |  2 | kun admin kan se indholdet af denne secret | user1
+ secret_title |     secret_description     | id |             limited_visibility             | role_privilege  
+--------------+----------------------------+----+--------------------------------------------+----------------  
+ hemmelighed  | meget hemmelig hemmelighed |  1 | kun admin kan se indholdet af denne celle  |  
+ hemmelighed2 | hemmeligste hemmelighed    |  3 | denne secret er synlig for user2           | user2  
+ hemmelighed1 | hemmeligere hemmelighed    |  2 | kun admin kan se indholdet af denne secret | user1  
 
 messages:
 
