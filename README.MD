@@ -17,18 +17,18 @@ products:
  bukser  | bukser beeskrivelse |       |  2 | root  
  trøje   | trøje beeskrivelse  |  2000 |  3 | root  
  bil     | bil beeskrivelse    | 50000 |  4 | root  
- ketcher | brugt               |   100 |  6 | user1  ```
-
+ ketcher | brugt               |   100 |  6 | user1  
+```
 secrets:
 
- secret_title |     secret_description     | id |             limited_visibility             | role_privilege  
+``` secret_title |     secret_description     | id |             limited_visibility             | role_privilege  
 --------------+----------------------------+----+--------------------------------------------+----------------  
  hemmelighed  | meget hemmelig hemmelighed |  1 | kun admin kan se indholdet af denne celle  |  
  hemmelighed2 | hemmeligste hemmelighed    |  3 | denne secret er synlig for user2           | user2  
  hemmelighed1 | hemmeligere hemmelighed    |  2 | kun admin kan se indholdet af denne secret | user1  
-
+```
 messages:
-
+```
  message_title  |  message_description  | id |         created_at         | role_privilege  
 ----------------+-----------------------+----+----------------------------+----------------  
  sød besked     | meget sød besked      |  1 | 2024-03-14 17:35:15.423276 |  
@@ -37,7 +37,7 @@ messages:
  hej            | hej med dig           |  6 | 2024-03-14 17:35:46.551106 | user2  
  uhøflig besked | føler du dig truffet? |  2 | 2024-03-14 17:35:15.423276 | user1  
  neutral besked | no hard feelings      |  3 | 2024-03-14 17:35:15.423276 | user2  
-
+```
 PRIVILEGES
 
 for user1
