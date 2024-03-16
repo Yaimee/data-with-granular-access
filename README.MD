@@ -2,7 +2,7 @@
 
 PostgreSQL
 
-This PostgreSQL database has been setup with user privileges and Row Level Security
+This PostgreSQL database was setup with user privileges and Row Level Security
 
 before proceeding with the database connection, let's have a look at the tables, and the priviliges of the two existing user from the database.
 there are three tables in the psql container.
