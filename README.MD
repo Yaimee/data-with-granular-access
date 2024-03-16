@@ -12,12 +12,12 @@ TABLES
 products:
 
   title  |     description     | price | id | created_by  
----------+---------------------+-------+----+------------
- besked1 | Her er en besked    |       |  1 | root
- bukser  | bukser beeskrivelse |       |  2 | root
- trøje   | trøje beeskrivelse  |  2000 |  3 | root
- bil     | bil beeskrivelse    | 50000 |  4 | root
- ketcher | brugt               |   100 |  6 | user1
+---------+---------------------+-------+----+------------  
+ besked1 | Her er en besked    |       |  1 | root  
+ bukser  | bukser beeskrivelse |       |  2 | root  
+ trøje   | trøje beeskrivelse  |  2000 |  3 | root  
+ bil     | bil beeskrivelse    | 50000 |  4 | root  
+ ketcher | brugt               |   100 |  6 | user1  
 
 secrets:
 
