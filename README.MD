@@ -29,14 +29,14 @@ secrets:
 
 messages:
 
- message_title  |  message_description  | id |         created_at         | role_privilege
-----------------+-----------------------+----+----------------------------+----------------
- sød besked     | meget sød besked      |  1 | 2024-03-14 17:35:15.423276 |
- hej            | hej med dig           |  5 | 2024-03-14 17:35:15.423276 |
- hej            | hej med dig           |  4 | 2024-03-14 17:35:15.423276 | user1
- hej            | hej med dig           |  6 | 2024-03-14 17:35:46.551106 | user2
- uhøflig besked | føler du dig truffet? |  2 | 2024-03-14 17:35:15.423276 | user1
- neutral besked | no hard feelings      |  3 | 2024-03-14 17:35:15.423276 | user2
+ message_title  |  message_description  | id |         created_at         | role_privilege  
+----------------+-----------------------+----+----------------------------+----------------  
+ sød besked     | meget sød besked      |  1 | 2024-03-14 17:35:15.423276 |  
+ hej            | hej med dig           |  5 | 2024-03-14 17:35:15.423276 |  
+ hej            | hej med dig           |  4 | 2024-03-14 17:35:15.423276 | user1  
+ hej            | hej med dig           |  6 | 2024-03-14 17:35:46.551106 | user2  
+ uhøflig besked | føler du dig truffet? |  2 | 2024-03-14 17:35:15.423276 | user1  
+ neutral besked | no hard feelings      |  3 | 2024-03-14 17:35:15.423276 | user2  
 
 PRIVILEGES
 
