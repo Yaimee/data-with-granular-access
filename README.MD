@@ -49,7 +49,7 @@ for user1
 &nbsp;&nbsp;  - create, insert, and update the same columns
 
 &nbsp;&nbsp;  messages  
-&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  can only:  
 &nbsp;&nbsp;  - select and see columns 'message_title' and 'message_description', in messages with the value 'user1' in the column 'role_privilege'
 
 &nbsp;&nbsp;  secrects  
@@ -60,15 +60,15 @@ for user1
 for user2  
 
 &nbsp;&nbsp;  products  
-&nbsp;&nbsp;  can only: 
+&nbsp;&nbsp;  can only:  
 &nbsp;&nbsp;  - select and see title and description columns of all rows
 
 &nbsp;&nbsp;  messages  
-&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  can only:  
 &nbsp;&nbsp;  - select and see columns 'message_title' and 'message_description', in the rows with the value 'user1' in the column 'role_privilege'
 
 &nbsp;&nbsp;  secrets  
-&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  can only:  
 &nbsp;&nbsp;  - view the columns 'secret_title' and 'secret_description' of one single row
 
 1a. (windows) download postgresql: https://www.postgresql.org/download/windows/  
