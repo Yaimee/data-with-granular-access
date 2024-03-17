@@ -42,34 +42,34 @@ PRIVILEGES
 
 for user1
 
-  products  
-  can only:
-  - select and see columns 'title', 'description', and 'price' in products with the value 'user1' in the 'created_by' column. (all products created by user1 are visible to 
-    user1
-  - create, insert, and update the same columns
+&nbsp;&nbsp;  products  
+&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  - select and see columns 'title', 'description', and 'price' in products with the value 'user1' in the 'created_by' column. (all products created by user1 &nbsp;&nbsp;visible to 
+&nbsp;&nbsp;    user1
+&nbsp;&nbsp;  - create, insert, and update the same columns
 
-  messages  
-  can only:
-  - select and see columns 'message_title' and 'message_description', in messages with the value 'user1' in the column 'role_privilege'
+&nbsp;&nbsp;  messages  
+&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  - select and see columns 'message_title' and 'message_description', in messages with the value 'user1' in the column 'role_privilege'
 
-  secrects  
-  can only:  
-  - select and see a single cell in the  column "limited_visibility"
-  - can see the columns secret_title and secret_description in rows with 'user1' in the 'role_privilege' column
+&nbsp;&nbsp;  secrects  
+&nbsp;&nbsp;  can only:  
+&nbsp;&nbsp;  - select and see a single cell in the  column "limited_visibility"
+&nbsp;&nbsp;  - can see the columns secret_title and secret_description in rows with 'user1' in the 'role_privilege' column
 
 for user2  
 
-  products  
-  can only: 
-  - select and see title and description columns of all rows
+&nbsp;&nbsp;  products  
+&nbsp;&nbsp;  can only: 
+&nbsp;&nbsp;  - select and see title and description columns of all rows
 
-  messages  
-  can only:
-  - select and see columns 'message_title' and 'message_description', in the rows with the value 'user1' in the column 'role_privilege'
+&nbsp;&nbsp;  messages  
+&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  - select and see columns 'message_title' and 'message_description', in the rows with the value 'user1' in the column 'role_privilege'
 
-  secrets  
-  can only:
-  - view the columns 'secret_title' and 'secret_description' of one single row
+&nbsp;&nbsp;  secrets  
+&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  - view the columns 'secret_title' and 'secret_description' of one single row
 
 1a. (windows) download postgresql: https://www.postgresql.org/download/windows/  
 1b. (mac) https://www.postgresql.org/download/macosx/  
