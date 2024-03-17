@@ -42,32 +42,32 @@ PRIVILEGES
 
 for user1
 
-  products
+  products  
   can only:
   - select and see columns 'title', 'description', and 'price' in products with the value 'user1' in the 'created_by' column. (all products created by user1 are visible to 
     user1
   - create, insert, and update the same columns
 
-  messages
+  messages  
   can only:
   - select and see columns 'message_title' and 'message_description', in messages with the value 'user1' in the column 'role_privilege'
 
-  secrects
-  can only:
+  secrects  
+  can only:  
   - select and see a single cell in the  column "limited_visibility"
   - can see the columns secret_title and secret_description in rows with 'user1' in the 'role_privilege' column
 
-for user2
+for user2  
 
-  products
+  products  
   can only: 
   - select and see title and description columns of all rows
 
-  messages
+  messages  
   can only:
   - select and see columns 'message_title' and 'message_description', in the rows with the value 'user1' in the column 'role_privilege'
 
-  secrets
+  secrets  
   can only:
   - view the columns 'secret_title' and 'secret_description' of one single row
 
