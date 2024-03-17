@@ -75,7 +75,7 @@ for user2
 1b. (mac) https://www.postgresql.org/download/macosx/  
 2. launch installer and install only "Command Line Tools"  
 3. (windows) add postgres to path in system environment variables  
-  \t3.1. type 'env' from search bar  
+  3.1. type 'env' from search bar  
   3.2. open 'edit the system environment variables'  
   3.3. click button 'Environment Variables'  
   3.4. mark 'path' under 'user variables for <your username>'  
