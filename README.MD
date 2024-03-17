@@ -75,11 +75,11 @@ for user2
 1b. (mac) https://www.postgresql.org/download/macosx/  
 2. launch installer and install only "Command Line Tools"  
 3. (windows) add postgres to path in system environment variables  
-&nbsp;3.1. type 'env' from search bar  
-  3.2. open 'edit the system environment variables'  
-  3.3. click button 'Environment Variables'  
-  3.4. mark 'path' under 'user variables for <your username>'  
-  now you should be able ot use psql in any local cli!  
+&nbsp;&nbsp;3.1. type 'env' from search bar  
+&nbsp;&nbsp;3.2. open 'edit the system environment variables'  
+&nbsp;&nbsp;3.3. click button 'Environment Variables'  
+&nbsp;&nbsp;3.4. mark 'path' under 'user variables for <your username>'  
+&nbsp;&nbsp;&nbsp;&nbsp;now you should be able ot use psql in any local cli!  
 4. connect to database with user1: psql -h 51.120.12.130 -p 5432 -d testdb -U user1  
 5. insert password: 'parsewoard123'  
 6. play around with sql commands  
