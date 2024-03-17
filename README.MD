@@ -43,7 +43,7 @@ PRIVILEGES
 for user1
 
 &nbsp;&nbsp;  products  
-&nbsp;&nbsp;  can only:
+&nbsp;&nbsp;  can only:  
 &nbsp;&nbsp;  - select and see columns 'title', 'description', and 'price' in products with the value 'user1' in the 'created_by' column. (all products created by user1 &nbsp;&nbsp;visible to 
 &nbsp;&nbsp;    user1
 &nbsp;&nbsp;  - create, insert, and update the same columns
