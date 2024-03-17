@@ -54,7 +54,7 @@ for user1
 
 &nbsp;&nbsp;  secrects  
 &nbsp;&nbsp;  can only:  
-&nbsp;&nbsp;  - select and see a single cell in the  column "limited_visibility"
+&nbsp;&nbsp;  - select and see a single cell in the  column "limited_visibility"  
 &nbsp;&nbsp;  - can see the columns secret_title and secret_description in rows with 'user1' in the 'role_privilege' column
 
 for user2  
