@@ -1,8 +1,11 @@
 ﻿# data-with-granular-access-readme
+INTEGRATOR:
 
+
+EXPOSEE:
 PostgreSQL
 
-This PostgreSQL database was setup with user privileges and Row Level Security
+This PostgreSQL database was setup with Column and Row Level Security
 
 before proceeding with the database connection, let's have a look at the tables, and the priviliges of the two existing users in the database.
 there are three tables in the psql container.
@@ -84,3 +87,31 @@ for user2
 5. insert password: 'parsewoard123'  
 6. play around with sql commands  
 7. now try with user2  
+
+How the granular access to the database was setup (not a full demonstration)
+
+Privileges to specific columns was granted to the specified user with grant. Following statement is just an example to illustrate the use of it:
+
+CRANT SELECT, UPDATE (message_title, message_description) to user1
+
+Row level security ensures granular access to rows in the tables, and was enabled for each table:
+
+'ALTER TABLE messages ENABLE ROW LEVEL SECURITY'
+
+row level security ensures conditional access to specific users.
+
+the following statement gives user1 select privilige to see the limited_visibility column in secrets table, in the row where id=2:
+
+CREATE POLICY user1_see_limited ON secrets FOR select TO user1 USING (limited_visibility = 'kun admin kan se indholdet af denne secret');
+
+Here, the policy is created on the row with the condition where limited_visibility = 'kun admin kan se indholdet af denne secret'.
+the user is only granted select privilege on limited_visibility column.
+this shows that the user can only see a single cell in the table.
+In creating policies, USING is used for SELECT, DELETE and UPDATE, and WITH CHECK is used to apply the INSERT statement, 
+
+Insert policy is created to user1, and user1 is thereforethe only one able to insert rows in products:
+
+CREATE POLICY insert_products_policy ON products FOR INSERT TO user1;
+
+It's important to note that with a combination of column level security (GRANT) and row level security with (CREATE POLICY), you can restrict access for a user, to just one single or more cells in the table. By appliying these features, you'll be able to achieve granular access down to single specific cells in tables.
+These are just a few of many statements used for demonstrating how the granular security was setup for the database.
